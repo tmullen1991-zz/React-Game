@@ -1,0 +1,9 @@
+.img-container{
+    width: 300px;
+    height: 300px;
+}
+.img-container:hover {
+    width: 350px;
+    height: 350px;
+    transition: width 0.25s, height 0.25s;
+  }
