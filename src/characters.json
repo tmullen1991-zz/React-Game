@@ -1,63 +1,53 @@
 [
     {
-      "id": 1,
+      "id": 0,
       "name": "Sterling Archer",
-      "image": "https://pbs.twimg.com/profile_images/809638187412885505/5OzJnn4C_400x400.jpg",
-      "answer": false
+      "image": "https://pbs.twimg.com/profile_images/809638187412885505/5OzJnn4C_400x400.jpg"
     },
     {
-        "id": 2,
+        "id": 1,
         "name": "Lana Kane",
-        "image": "https://pbs.twimg.com/profile_images/895817690232893440/z4caWEda_400x400.jpg",
-        "answer": false
+        "image": "https://pbs.twimg.com/profile_images/895817690232893440/z4caWEda_400x400.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Cheryl Tunt",
+        "image": "http://i.imgur.com/9l4NCGM.png"
       },
       {
         "id": 3,
-        "name": "Cheryl Tunt",
-        "image": "http://i.imgur.com/9l4NCGM.png",
-        "answer": false
+        "name": "Pam Poovey",
+        "image": "https://pbs.twimg.com/profile_images/1013099161573642240/OKVhuHvH_400x400.jpg"
       },
       {
         "id": 4,
-        "name": "Pam Poovey",
-        "image": "https://pbs.twimg.com/profile_images/1013099161573642240/OKVhuHvH_400x400.jpg",
-        "answer": false
+        "name": "Dr. Krieger",
+        "image": "https://pbs.twimg.com/profile_images/609573672123154432/LrHmtmkQ_400x400.png"
       },
       {
         "id": 5,
-        "name": "Dr. Krieger",
-        "image": "https://pbs.twimg.com/profile_images/609573672123154432/LrHmtmkQ_400x400.png",
-        "answer": false
+        "name": "Cyril Figgis",
+        "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-archer-chris-parnell.jpg"
       },
       {
         "id": 6,
-        "name": "Cyril Figgis",
-        "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-archer-chris-parnell.jpg",
-        "answer": false
+        "name": "Ray Gillette",
+        "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-archer-adam-reed.jpg"
       },
       {
         "id": 7,
-        "name": "Ray Gillette",
-        "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-archer-adam-reed.jpg",
-        "answer": false
+        "name": "Malory Archer",
+        "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-archer-jessica-walter.jpg"
       },
       {
         "id": 8,
-        "name": "Malory Archer",
-        "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-archer-jessica-walter.jpg",
-        "answer": false
+        "name": "Barry Dillon",
+        "image": "https://pbs.twimg.com/profile_images/1342006002/barry_cyborg_400x400.png"
       },
       {
         "id": 9,
-        "name": "Barry Dillon",
-        "image": "https://pbs.twimg.com/profile_images/1342006002/barry_cyborg_400x400.png",
-        "answer": false
-      },
-      {
-        "id": 10,
         "name": "Woodhouse",
-        "image": "https://pbs.twimg.com/profile_images/913454322528276481/xyYOt0aI_400x400.jpg",
-        "answer": false
+        "image": "https://pbs.twimg.com/profile_images/913454322528276481/xyYOt0aI_400x400.jpg"
       }
   ]
   
