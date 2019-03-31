@@ -41,31 +41,33 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1 className="text-center">Score: {this.state.score}</h1>
-        <h1 className="text-center">TopScore: {this.state.topScore}</h1>
-        <div
-          className="row text-center m-auto p-5"
-          onClick={() => this.shuffleCards()}
-        >
-          {this.state.characterList.map(character => (
-            <div
-              className="card shadow rounded m-4"
-              onClick={() => this.selectCard(character.name)}
-              key={character.id}
-            >
-              <div className="img-container">
-                <img
-                  className="card-img-top"
-                  alt={character.name}
-                  src={character.image}
-                />
+        <main className="container">
+          <h1 className="text-center">Score: {this.state.score}</h1>
+          <h1 className="text-center">TopScore: {this.state.topScore}</h1>
+          <div
+            className="row text-center m-auto p-5"
+            onClick={() => this.shuffleCards()}
+          >
+            {this.state.characterList.map(character => (
+              <div
+                className="card shadow rounded m-auto"
+                onClick={() => this.selectCard(character.name)}
+                key={character.id}
+              >
+                <div className="img-container">
+                  <img
+                    className="card-img-top"
+                    alt={character.name}
+                    src={character.image}
+                  />
+                </div>
+                <div className="card-body">
+                  <h5 className="card-title">{character.name}</h5>
+                </div>
               </div>
-              <div className="card-body">
-                <h5 className="card-title">{character.name}</h5>
-              </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        </main>
       </div>
     );
   }
