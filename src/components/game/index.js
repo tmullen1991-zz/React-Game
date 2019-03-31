@@ -21,8 +21,10 @@ class App extends React.Component {
   score() {
     let score = this.state.score;
     score = score + 1;
-    this.state.topScore > score ? this.setState({ topScore: score }) : console.log("");
     this.setState({ score: score });
+    this.state.topScore <= score
+      ? this.setState({ topScore: score })
+      : console.log(this.state.topScore);
   }
 
   selectCard = name => {
@@ -40,7 +42,7 @@ class App extends React.Component {
     return (
       <div>
         <h1 className="text-center">Score: {this.state.score}</h1>
-        <h1 className="text-center">TopScore: {this.state.score}</h1>
+        <h1 className="text-center">TopScore: {this.state.topScore}</h1>
         <div
           className="row text-center m-auto p-5"
           onClick={() => this.shuffleCards()}
