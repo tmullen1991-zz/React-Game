@@ -7,7 +7,7 @@ class App extends React.Component {
     return (
       <Jumbotron>
         <h1 className="text-center align-middle">Archer Click Game!</h1>
-        <h4 className="text-center">Click images to get a higher score. Don't Click the same one twice!</h4>
+        <h4 className="text-center">Click images to get a higher score. Don't click the same one twice!</h4>
       </Jumbotron>
     );
   }
